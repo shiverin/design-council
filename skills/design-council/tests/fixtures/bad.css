@@ -1,0 +1,6 @@
+.hero { transition: all .3s; background: linear-gradient(90deg, #7c3aed, #3b82f6); }
+.title { -webkit-background-clip: text; background-clip: text; font-family: "Inter", sans-serif; }
+.label { text-transform: uppercase; letter-spacing: .2em; margin-top: 13px; }
+.btn:focus { outline: none; }
+.grow { transition: width .2s; }
+@keyframes float { to { transform: translateY(-8px); } }
